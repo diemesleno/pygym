@@ -1608,16 +1608,40 @@ docker-compose exec web python manage.py createsuperuser
 
 ## Release History
 
-* 0.2.1
-    * CHANGE: Update README
-* 0.2.0
-    * The first proper release
+* 1.0.0
+    * First release
+* 0.1.6
+    * Fixing issues
+* 0.1.5
+    * Testing deployment
+* 0.1.4
+    * Creation of Dockerfiles
+* 0.1.3
+    * Preparing files to production
+* 0.1.2
+    * Create the Plan API
 * 0.1.1
-    * ADD: Create the app `acesso`
+    * Create the Plan Model
 * 0.1.0
-    * ADD: Create the app `core` 
+    * ADD: Crete the app `plan`
+* 0.0.9
+    * Create the User API
+* 0.0.8
+    * ADD: Create the app `user` 
+* 0.0.7
+    * Create the Day API
+* 0.0.6
+    * Create the Day Model
+* 0.0.5
+    * ADD: Create the app `day`
+* 0.0.4
+    * Create the Exercise API
+* 0.0.3
+    * Create the Exercise Model
+* 0.0.2
+    * Create the app `exercise` 
 * 0.0.1
-    * Work in progress
+    * Create the pygym project
 
 ## Meta
 
