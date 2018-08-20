@@ -49,11 +49,15 @@ improve the look and fell.
 * Django 2.1.0
 * PostgreSQL 10.0+
 
-## Public area
-![](public.png)
+## API Main Page
+![](api-main.png)
 
 ## Private area
 ![](admin.png)
+
+## API Testing with Postman
+![](postman.png)
+
 
 ## Endpoint (http://127.0.0.1/api/v1/users/)
 
