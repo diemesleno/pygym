@@ -195,6 +195,9 @@ NOSE_ARGS = [
     '--with-coverage',
     '--cover-erase',
     '--cover-inclusive',
-    '--cover-package=pygym.core',
+    '--cover-package=day',
+    '--cover-package=exercise',
+    '--cover-package=plan',
+    '--cover-package=user',
     '--verbosity=2',
 ]

@@ -1606,6 +1606,14 @@ docker-compose exec web python manage.py createsuperuser
 # Access http://127.0.0.1:8000/admin/
 ```
 
+## Automatic tests can be executed by:
+
+```
+# In anothe terminal
+
+docker-compose exec web python manage.py test
+```
+
 ## Release History
 
 * 1.0.0
