@@ -83,7 +83,7 @@ OBS: Very basic few tests only
 docker-compose exec web python manage.py test
 ```
 
-## Endpoint (http://127.0.0.1/api/v1/users/)
+## Endpoint (http://127.0.0.1:8000/api/v1/users/)
 
 ### POST
 
@@ -124,7 +124,7 @@ Register a user.
 }
 ```
 
-## Endpoint (http://127.0.0.1/api/v1/users/)
+## Endpoint (http://127.0.0.1:8000/api/v1/users/)
 
 ### GET
 
@@ -164,7 +164,7 @@ OBS: Must include in the Headers the Authorization with value JWT token
 ]
 ```
 
-## Endpoint (http://127.0.0.1/api/v1/users/pk/)
+## Endpoint (http://127.0.0.1:8000/api/v1/users/pk/)
 
 ### GET
 
@@ -184,7 +184,7 @@ OBS: Must include in the Headers the Authorization with value JWT token
 }
 ```
 
-## Endpoint (http://127.0.0.1/api/v1/users/pk/)
+## Endpoint (http://127.0.0.1:8000/api/v1/users/pk/)
 
 ### PUT
 
@@ -232,7 +232,7 @@ OBS: Only the attributes informed will be updated
 }
 ```
 
-# Endpoint (http://127.0.0.1/api/v1/users/pk/)
+# Endpoint (http://127.0.0.1:8000/api/v1/users/pk/)
 
 ### DELETE
 
@@ -243,7 +243,7 @@ delete a user.
 OBS: Must include in the Headers the Authorization with value JWT token
 
 
-## Endpoint (http://127.0.0.1/api/v1/user/login/)
+## Endpoint (http://127.0.0.1:8000/api/v1/user/login/)
 
 ### POST
 
@@ -275,7 +275,7 @@ Authenticate a user.
 }
 ```
 
-## Endpoint (http://127.0.0.1/api/v1/token/refresh/)
+## Endpoint (http://127.0.0.1:8000/api/v1/token/refresh/)
 
 ### POST
 
@@ -305,7 +305,7 @@ Refresh a user token.
 }
 ```
 
-## Endpoint (http://127.0.0.1/api/v1/exercises/)
+## Endpoint (http://127.0.0.1:8000/api/v1/exercises/)
 
 ### GET
 
@@ -330,7 +330,7 @@ OBS: Must include in the Headers the Authorization with value JWT token
 ]
 ```
 
-## Endpoint (http://127.0.0.1/api/v1/exercises/pk/)
+## Endpoint (http://127.0.0.1:8000/api/v1/exercises/pk/)
 
 ### GET
 
@@ -351,7 +351,7 @@ OBS: Must include in the Headers the Authorization with value JWT token
 ]
 ```
 
-## Endpoint (http://127.0.0.1/api/v1/exercises/)
+## Endpoint (http://127.0.0.1:8000/api/v1/exercises/)
 
 ### POST
 
@@ -378,7 +378,7 @@ OBS: Must include in the Headers the Authorization with value JWT token
 }
 ```
 
-## Endpoint (http://127.0.0.1/api/v1/exercises/pk/)
+## Endpoint (http://127.0.0.1:8000/api/v1/exercises/pk/)
 
 ### PUT
 
@@ -405,7 +405,7 @@ OBS: Must include in the Headers the Authorization with value JWT token
 }
 ```
 
-## Endpoint (http://127.0.0.1/api/v1/exercises/pk/)
+## Endpoint (http://127.0.0.1:8000/api/v1/exercises/pk/)
 
 ### DELETE
 
@@ -416,7 +416,7 @@ Delete a exercise.
 OBS: Must include in the Headers the Authorization with value JWT token
 
 
-## Endpoint (http://127.0.0.1/api/v1/plans/)
+## Endpoint (http://127.0.0.1:8000/api/v1/plans/)
 
 ### GET
 
@@ -1212,7 +1212,7 @@ OBS: Must include in the Headers the Authorization with value JWT token
 ]
 ```
 
-## Endpoint (http://127.0.0.1/api/v1/plans/pk/)
+## Endpoint (http://127.0.0.1:8000/api/v1/plans/pk/)
 
 ### GET
 
@@ -1265,7 +1265,7 @@ OBS: Must include in the Headers the Authorization with value JWT token
 }
 ```
 
-## Endpoint (http://127.0.0.1/api/v1/plans/)
+## Endpoint (http://127.0.0.1:8000/api/v1/plans/)
 
 ### POST
 
@@ -1379,7 +1379,7 @@ OBS: Must include in the Headers the Authorization with value JWT token
 }
 ```
 
-## Endpoint (http://127.0.0.1/api/v1/plans/pk/)
+## Endpoint (http://127.0.0.1:8000/api/v1/plans/pk/)
 
 ### PUT
 
@@ -1559,7 +1559,7 @@ OBS: Must include in the Headers the Authorization with value JWT token
 }
 ```
 
-## Endpoint (http://127.0.0.1/api/v1/plans/pk/)
+## Endpoint (http://127.0.0.1:8000/api/v1/plans/pk/)
 
 ### DELETE
 
