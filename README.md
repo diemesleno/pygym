@@ -63,22 +63,21 @@ improve the look and fell.
 
 Any Operating System:
 
-```sh
-mkvirtualenv simetric -p python3
+```
+git clone https://github.com/diemesleno/pygym.git
 
-pip install -r requeriments.txt
+cd pygym
 
-python makemigrations
+./run.sh
 
-python migrate
-
-python manage.py createsuperuser
-
-python manage.py runserver
-
-access http://localhost:8000
+access http://127.0.0.1:8000
 ```
 
+## Test Information
+
+```
+
+```
 
 ## Endpoint (http://127.0.0.1/api/v1/users/)
 
@@ -1595,6 +1594,16 @@ OBS: Must include in the Headers the Authorization with value JWT token
 {
     "message": "Users added on this plan"
 }
+```
+
+## Administration Area
+
+```
+# Create a super user
+
+docker-compose exec web python manage.py createsuperuser
+
+# Access http://127.0.0.1:8000/admin/
 ```
 
 ## Release History
