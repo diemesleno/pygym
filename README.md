@@ -59,6 +59,27 @@ improve the look and fell.
 ![](postman.png)
 
 
+## Installation
+
+Any Operating System:
+
+```sh
+mkvirtualenv simetric -p python3
+
+pip install -r requeriments.txt
+
+python makemigrations
+
+python migrate
+
+python manage.py createsuperuser
+
+python manage.py runserver
+
+access http://localhost:8000
+```
+
+
 ## Endpoint (http://127.0.0.1/api/v1/users/)
 
 ### POST
@@ -1574,26 +1595,6 @@ OBS: Must include in the Headers the Authorization with value JWT token
 {
     "message": "Users added on this plan"
 }
-```
-
-## Installation
-
-Any Operating System:
-
-```sh
-mkvirtualenv simetric -p python3
-
-pip install -r requeriments.txt
-
-python makemigrations
-
-python migrate
-
-python manage.py createsuperuser
-
-python manage.py runserver
-
-access http://localhost:8000
 ```
 
 ## Release History
