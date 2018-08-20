@@ -70,13 +70,17 @@ cd pygym
 
 ./run.sh
 
-access http://127.0.0.1:8000
+Recomended to use Postman or another REST Client
 ```
 
-## Test Information
+## Automatic tests
 
 ```
+OBS: Very basic few tests only
 
+# In anothe terminal
+
+docker-compose exec web python manage.py test
 ```
 
 ## Endpoint (http://127.0.0.1/api/v1/users/)
@@ -1604,14 +1608,6 @@ OBS: Must include in the Headers the Authorization with value JWT token
 docker-compose exec web python manage.py createsuperuser
 
 # Access http://127.0.0.1:8000/admin/
-```
-
-## Automatic tests can be executed by:
-
-```
-# In anothe terminal
-
-docker-compose exec web python manage.py test
 ```
 
 ## Release History
